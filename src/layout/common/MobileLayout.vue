@@ -1,5 +1,5 @@
 <template>
-  <div class="sunxy-layout sunxy-layout-mobile">
+  <div class="sunxy-layout-mobile">
       Phone Layout
   </div>
 </template>

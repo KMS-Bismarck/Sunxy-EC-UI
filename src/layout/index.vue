@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div class="sunxy-layout">
     <component :is="layout"></component>
-    <router-view></router-view>
   </div>
 </template>
 
@@ -20,3 +19,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+.sunxy-layout {
+  width: 100%;
+  height: 100%;
+}
+</style>
